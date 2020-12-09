@@ -35,24 +35,24 @@
     <meta itemprop="name" content="Akshat Gupta">
     <meta itemprop="description"
         content="VIT themed client side puzzle with mini-tasks and questions leading to a final prize for each person for the online farewell of Star Seniors.">
-    <meta name="url" content="https://vit-puzzle.akshatvg.com/loginHardik">
-    <meta property="og:url" content="https://vit-puzzle.akshatvg.com/loginHardik">
-    <link rel="canonical" href="https://vit-puzzle.akshatvg.com/loginHardik">
+    <meta name="url" content="https://vit-puzzle.akshatvg.com/deepak/d6">
+    <meta property="og:url" content="https://vit-puzzle.akshatvg.com/deepak/d6">
+    <link rel="canonical" href="https://vit-puzzle.akshatvg.com/deepak/d6">
 
     <!-- Linking Favicon, Apple Touch Icon, Font Awesome, AOS, Materialize & CSS -->
-    <link rel="icon" href="assets/img/favicon.png" type="image/png">
-    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" type="image/png">
+    <link rel="icon" href="../assets/img/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         defer>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="assets/css/spacing.css">
-    <link rel="stylesheet" href="assets/css/index.css">
-    <link rel="stylesheet" href="assets/css/tables.css">
+    <link rel="stylesheet" href="../assets/css/spacing.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="../assets/css/tables.css">
 
     <!-- Title -->
-    <title>VIT Puzzle || Login Page</title>
+    <title>Deepak || Sixth Puzzle</title>
 
     <!-- No Script -->
     <noscript>Please enable JavaScript to open this page.</noscript>
@@ -65,7 +65,7 @@
     <div class="navbar-fixed">
         <nav>
             <div class="nav-wrapper center">
-                <a href="/" class="center brand">VIT Puzzle
+                <a href="#!" class="center brand">VIT Puzzle
                 </a>
             </div>
         </nav>
@@ -73,30 +73,25 @@
 
     <!-- Main Content -->
     <div class="container">
-        <!-- Login Form -->
+        <!-- Form -->
         <div class="row mt-5 mb-5">
             <div class="w-100 w-md-50 mx-auto">
-                <div class="card white card-top-lightblue">
+                <div class="card white card-top-blue">
                     <div class="card-content">
-                        <span class="card-title black-text">Hardik's Login</span>
-                        <div name="loginStud">
+                        <span class="card-title black-text underline">Question 6</span>
+                        <div name="questionBox">
+                            <div class="row mt-4">
+                                <h5 class="left heading">
+                                    You did not attend ExploreML but came to ChickIn for _____</h5>
+                            </div>
                             <div class="row">
                                 <div class="input-field col s12">
-                                    <i class="material-icons prefix">account_circle</i>
-                                    <input id="regNo" name="regNo" type="text" class="validate"
-                                        pattern="[1-2][5-9][A-Za-z]{3}[0-9]{4}" required
-                                        title="Invalid Registration Number">
-                                    <label for="regNo">Registration Number</label>
-                                </div>
-                                <div class="input-field col s12">
-                                    <i class="material-icons prefix">lock</i>
-                                    <input id="studPass" name="studPass" type="password" class="validate" required>
-                                    <label for="studPass">Password</label>
+                                    <input id="answer" name="answer" type="text" class="validate">
+                                    <label for="answer">Your Answer</label>
                                 </div>
                                 <div class="center">
-                                    <button name="loginStudBtn"
-                                        class="btn btn-puzzle-lightblue z-depth-0 waves-effect mb-n4" id="loginStudBtn"
-                                        value="Login">Login</button>
+                                    <button name="submitStudBtn" class="btn btn-puzzle z-depth-0 waves-effect mb-n4"
+                                        id="submitStudBtn" value="Submit">Submit</button>
                                 </div>
                             </div>
                         </div>
@@ -121,25 +116,8 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"
         crossorigin="anonymous"></script>
-    <script src="assets/js/index.js"></script>
-
-    <script>
-        $("#loginStudBtn").click(function () {
-            var regNo = document.getElementById("regNo").value;
-            var password = document.getElementById("studPass").value;
-            if (regNo.match(/[1-2][5-9][A-Za-z]{3}[0-9]{4}/)) {
-                if (password === "") {
-                    M.toast({ html: 'Password cannot be empty' });
-                }
-                else {
-                    window.location.href = "hardik/hardikFirst.html";
-                }
-            }
-            else {
-                M.toast({ html: 'Invalid Registration Number' });
-            }
-        });
-    </script>
+    <script src="../assets/js/index.js"></script>
+    <script src="js/d6.js"></script>
 
 </body>
 

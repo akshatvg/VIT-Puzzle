@@ -413,3 +413,9 @@ header {
 .input-field .prefix.active {
     color: #000;
 }
+
+/* Underline */
+.underline {
+    text-decoration: underline;
+    text-decoration-color: #000;
+}

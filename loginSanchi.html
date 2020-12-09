@@ -139,6 +139,13 @@
                 M.toast({ html: 'Invalid Registration Number' });
             }
         });
+
+        $(document).keypress(function (event) {
+            var keycode = (event.keyCode ? event.keyCode : event.which);
+            if (keycode == '13') {
+                $("#loginStudBtn").trigger('click');
+            }
+        });
     </script>
 
 </body>

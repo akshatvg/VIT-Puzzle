@@ -2,7 +2,7 @@
 
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/akshatvg/VIT-Puzzle?logo=github&style=social)](https://github.com/akshatvg/) [![GitHub last commit](https://img.shields.io/github/last-commit/akshatvg/VIT-Puzzle?style=social&logo=git)](https://github.com/akshatvg/) [![GitHub stars](https://img.shields.io/github/stars/akshatvg/VIT-Puzzle?style=social)](https://github.com/akshatvg/VIT-Puzzle/stargazers) [![GitHub forks](https://img.shields.io/github/forks/akshatvg/VIT-Puzzle?style=social&logo=git)](https://github.com/akshatvg/VIT-Puzzle/network)
 
-VIT themed client side puzzle with mini-tasks and questions leading to a final prize for each person for the online farewell of Star Seniors.
+VIT themed client side puzzle with mini-tasks and questions for each person for the online farewell of Star Seniors.
 
 <p align="center">
 <a href="https://vit-puzzle.akshatvg.com">

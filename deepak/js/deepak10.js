@@ -2,7 +2,7 @@ $("#submitStudBtn").click(function () {
     var answer = document.getElementById("answer").value.toString().toLowerCase();
     var result = answer.includes("star senior") || answer.includes("starsenior") || answer.includes("star seniors");
     if (result == true) {
-        window.location.href = "http://deepaknahar.tech";
+        M.toast({ html: 'Time to return to our meeting ;)' });
     }
     else if (answer === "") {
         M.toast({ html: 'Answer cannot be empty' });
